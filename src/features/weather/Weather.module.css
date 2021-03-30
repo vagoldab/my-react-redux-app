@@ -1,0 +1,35 @@
+.rightcorner {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.temperature {
+    font-size: 32px;
+    padding-top: 28px;
+}
+  
+.temperaturecontainer {
+display: flex;
+padding-right: 40px;
+}
+
+.weather {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.weather p {
+margin: 0;
+}
+
+.weatherdescription {
+text-transform: uppercase;
+font-size: 13px;
+}
+
+.weathertext {
+text-align: left;
+margin-left: -6px;
+}
